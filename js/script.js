@@ -5,4 +5,9 @@ const lastResult = document.querySelector(".lastResult");
 const loworHi = document.querySelector(".loworHi");
 
 
+const guessSubmit = document.querySelector(".guessSubmit");
+const guessField = document.querySelector(".guessfield");
+
+
+
 
