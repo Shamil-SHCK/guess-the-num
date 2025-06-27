@@ -46,7 +46,7 @@ function checkGuess(){
         
         } 
         else if (userGuess > randomNumber) {
-            
+
             lowOrHi.textContent = "Last guess was too high!";
         }
   }
@@ -56,4 +56,18 @@ function checkGuess(){
     guessField.focus();
 }
 
+//to call it on click at submit button
+guessSubmit.addEventListener("click",checkGuess);
 
+function setGameOver(){
+    guessField.disabled = true;
+    guessSubmit.disabled =true;
+     resetButton = document.createElement("button");
+     resetButton.textContent = "start a new game";
+     document.body.append(resetButton);
+     resetButton.addEventListener("click",resetGame);
+}
+function resetGame(){
+    guessCount = 1;
+
+}
