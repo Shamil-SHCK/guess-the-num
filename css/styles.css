@@ -3,6 +3,7 @@ html {
 }
 
 body {
+
     width: 50%;
     max-width: 800px;
     min-width: 480px;
@@ -17,4 +18,19 @@ body {
 .lastResult {
     color: white;
     padding: 3px;
+}
+.form{
+    background-color: bisque;
+    border: 2px double blueviolet;
+    padding: 10px;
+    max-width: 400px;
+    margin: 0px 20px;
+}
+.guessSubmit{
+    margin: 10px 155px;
+    width: 90px;
+    display: block;
+}
+label{
+    margin-left: 20px;
 }
